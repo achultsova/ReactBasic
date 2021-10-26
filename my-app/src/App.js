@@ -1,10 +1,10 @@
-import React, { JSX, useState } from "react";
+import React, { useState } from "react";
 import './App.css';
 import axios from 'axios';
 
 const App = () => {
   const [state, setState] = useState({
-    value: "",
+    value: undefined,
     days: "",
     city: ""
   });
